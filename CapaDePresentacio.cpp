@@ -21,7 +21,7 @@ void CapaDePresentacio::combinaPremerOK() {
     try {
 		// Crida a la capa de domini per crear la combinació.
         CapaDeDomini::instancia().combina(nomP, varietat, color);
-        std::cout << "Combinacio creada correctament.";
+        std::cout << "Combinacio creada correctament." << std::endl;
 
     } catch (const std::exception& e) {
 		// Mostra un missatge d'error segons el tipus d'excepció llençada per la capa de domini.
