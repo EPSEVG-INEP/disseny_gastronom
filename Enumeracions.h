@@ -1,0 +1,11 @@
+#ifndef ENUMERACIONS_H
+#define ENUMERACIONS_H
+
+enum class ColorVi { BLANC, NEGRE, ROSAT };
+
+enum class Mes {
+    GENER = 1, FEBRER, MARC, ABRIL, MAIG, JUNY,
+    JULIOL, AGOST, SETEMBRE, OCTUBRE, NOVEMBRE, DESEMBRE
+};
+
+#endif
